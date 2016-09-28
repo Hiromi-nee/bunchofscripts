@@ -1,0 +1,3 @@
+youtube-dl --list-formats <url>
+youtube-dl -f <format no.> -g <url>
+avconv -i <output from previous cmd> -c copy output.ts
